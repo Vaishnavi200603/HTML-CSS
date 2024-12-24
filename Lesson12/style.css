@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flexbox-class{
+    display: flex;
+    flex-direction: row;
+}
+.color-one{
+    background-color: paleturquoise;
+}
+.color-two{
+    background-color: palevioletred;
+}
+.item1{
+    width: 200px;
+}
+.item2{
+    width: 75px;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item4{
+    width: 200px;
+    height: 150px;
+}

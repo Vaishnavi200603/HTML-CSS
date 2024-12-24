@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .assignment1{
+            display: block;
+            margin-bottom: 10px;
+        }
+        .assignment2-paragraph{
+            width: 280px;
+            display: inline-block;
+        }
+        .assignment2-button, 
+        .assignment2-paragraph{
+            vertical-align: middle;
+        }
+        .google-image{
+            display: block;
+            width: 250px;
+            margin-left: 300px;
+            margin-bottom: 10px;
+        }
+        .google-searchbar{
+            border-radius: 25px;
+            width: 450px;
+            padding: 10px 50px 10px 6px;
+            border: 2px solid rgb(196, 188, 188);
+            margin-left: 180px;
+            margin-bottom: 30px;
+            display: block;
+        }
+        .assignment4-first-name,
+        .assignment4-last-name,
+        .assignment4-email{
+            margin: 0px 5px 10px 5px;
+            padding: 10px 10px;
+            border: 2px solid rgb(186, 170, 170);
+            border-radius: 10px;
+        }
+        .assignment4-email{
+            width: 315px;
+            display: block;
+        }
+        .sign-up-button{
+            background-color: rgb(10, 102, 194);
+            color: white;
+            cursor: pointer;
+            border: none;
+            margin: 0px 5px 25px 5px;
+            padding: 10px 10px;
+            width: 335px;
+            display: block;
+            border-radius: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            transition: background-color 0.15s;
+        }
+        .sign-up-button:hover{
+            background-color: rgb(25, 117, 209);   
+        }
+        .sign-up-button:active{
+            background-color: rgb(7, 38, 69);
+        }
+        .uber-text{
+            font-size: 34px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 10px;
+        }
+        .pickup-textbox,
+        .destination-textbox{
+            display: block;
+            width: 300px;
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: rgb(242, 224, 224);
+            border: none;
+            border-radius: 2px;
+            /* opacity: 0.4; */
+        }
+        .pickup-textbox::placeholder,
+        .destination-textbox::placeholder{
+            color: #000;
+            font-size: small;
+        }
+        .uber-request-button,
+        .uber-schedule-button{
+            border: none;
+            padding: 15px 10px;
+            margin-right: 8px;
+            margin-top: 10px;
+            width: 140px;
+        }
+        .uber-request-button{
+            background-color: #000;
+            color: white;
+        }
+        .uber-schedule-button{
+            background-color: rgb(242, 224, 224);
+            color: #000;
+        }
+        .uber-schedule-button:hover{
+            background-color: #000;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <input class="assignment1" type="text" placeholder="Name">
+    <input class="assignment1" type="email" placeholder="Email">
+
+    <p class="assignment2-paragraph">Thanks for chatting with our customer support. Would you like to take our quick servey?</p>
+    <button class="assignment2-button">Yes</button>
+    <button class="assignment2-button">No</button>
+
+    <img class="google-image" src="google-logo.png" alt="">
+    <input class="google-searchbar" type="text" placeholder="Search Google or type a URL">
+
+    <input class="assignment4-first-name" type="text" placeholder="First name">
+    <input class="assignment4-last-name" type="text" placeholder="Last name">
+    <input class="assignment4-email" type="text" placeholder="Email">
+    <button class="sign-up-button">Sign Up</button>
+
+    <p class="uber-text">Request a ride now</p>
+    <input class="pickup-textbox" type="text" placeholder="Enter pickup location">
+    <input class="destination-textbox" type="text" placeholder="Enter destination">
+    <button class="uber-request-button">Request now</button>
+    <button class="uber-schedule-button">Schedule for later</button>
+</body>
+</html>
